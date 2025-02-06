@@ -8,16 +8,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 
-inStock_urls = {
-    'birmingham': 'https://discord.com/api/webhooks/1334484492991336481/0WlxONG7M3q83i4f2C-RcvbXZ7Ol7jePN8pN5Gugd9xjEY_T3l5byuYNgXQrvb16w0AY',
-    'leicester': 'https://discord.com/api/webhooks/1334484511534092368/V5A4sh8lYaeFk46POiOPJYwDBJJa2wgyt8ZeYeEaM_eHD60lPkSc-pPHIR94FqhL5Oti',
-    'lincoln': 'https://discord.com/api/webhooks/1334484503347068958/aenPLYX8L1R3Sw8Uy8PlTe_h4MFUjnkQIgXITu5kYGKQtetpBpBtuMHR8p-_AvvrKPUF',
-    'mansfield': 'https://discord.com/api/webhooks/1334484505976639580/fNMF4WCBeXgdlU2byGLiEGrGEVdb3kUtyT24Vl48ZoqM8Pxk_NO4uRaSKr3l-U2a1Tsy',
-    'nottingham': 'https://discord.com/api/webhooks/1334484500603731968/hyRrrq2ibJPEFm5BTIN3qovXiVxMiKhvnsHMne_2mDYoc-K7A6d-XoScoPHBMGvjG4_f',
-    'ripley': 'https://discord.com/api/webhooks/1334484848676569161/DT2mlkK3gnJfpsr1J2kJNWNf_cq8kQGyr0fo9UXxEQ8XCy_A7Wz1EkL05E2ICfYi5LxP'
+inStock_urls = { webhook_urls
     }
-outOfStock_url = 'https://discord.com/api/webhooks/1334155791535444048/16GO8H21QD46FiJyU2E0syKez5mKeKIWtuSf3Gf0KcApAlOeafNXEcDyfTtZWu2kc4CA'
-# outOfStock_url = 'https://discord.com/api/webhooks/1333578983803060275/k3lB3MSspKusRcacoAP-1LU3pTDitmCBi1e7G7UkKKinyeQIdaId5m1cUUtroNeNZ1lb'
+outOfStock_url = web_hook url
 
 def send_discord_message(message, webhook_url):
     data = {
